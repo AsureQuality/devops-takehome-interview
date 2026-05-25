@@ -35,13 +35,14 @@ Setup instructions for your OS:
 
 ## Getting Started
 
-### 1. Fork this repository
+### 1. Fork and clone this repository
 
-Fork this repo to your own GitHub account and clone your fork:
+Click **Fork** on this GitHub page, then clone your fork:
 
 ```bash
-git clone https://github.com/<your-username>/devops-interview.git
-cd devops-interview
+git clone https://github.com/<your-username>/devops-takehome-interview.git
+cd devops-takehome-interview
+git checkout -b my-submission
 ```
 
 ### 2. Configure your LocalStack auth token
@@ -87,10 +88,7 @@ Work from the `starter/` directory. All your implementation goes there.
 
 ## Submission
 
-When you are done:
-
-1. Ensure all work is committed and pushed to your fork
-2. Email us the link to your fork
+When you are done (or when time is up), push your branch and email us the link to your fork.
 
 Your commit history is part of the assessment — commit regularly with meaningful messages.
 
