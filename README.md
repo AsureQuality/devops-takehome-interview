@@ -95,3 +95,7 @@ Your commit history is part of the assessment — commit regularly with meaningf
 ## Questions
 
 If anything is unclear, please reach out rather than making assumptions.
+
+## Notes
+
+Leave any thoughts or notes in the NOTES.md file at the root of the repository. This way we can see your thought process or and considerations you had to make.
