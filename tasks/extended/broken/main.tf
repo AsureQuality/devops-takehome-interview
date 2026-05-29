@@ -108,7 +108,7 @@ resource "aws_apigatewayv2_integration" "lambda" {
   api_id           = aws_apigatewayv2_api.main.id
   integration_type = "AWS_PROXY"
 
-  integration_uri        = aws_lambda_function.api.arn # ERROR 3 ← should be invoke_arn, not arn
+  integration_uri        = aws_lambda_function.api.arn
   payload_format_version = "2.0"
 }
 
